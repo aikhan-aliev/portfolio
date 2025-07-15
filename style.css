@@ -1,0 +1,9 @@
+.section {
+  padding: 80px 0;
+}
+.section:nth-child(even) {
+  background-color: #f8f9fa;
+}
+.section h2 {
+  margin-bottom: 40px;
+}
