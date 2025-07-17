@@ -1,9 +1,63 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1e293b 60%, #6366f1 100%);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  color: #fff !important;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #a5b4fc !important;
+}
+
 .section {
   padding: 80px 0;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 32px rgba(99,102,241,0.08);
+  background: #fff;
 }
+
 .section:nth-child(even) {
-  background-color: #f8f9fa;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
 }
+
 .section h2 {
   margin-bottom: 40px;
+  color: #6366f1;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(99,102,241,0.10);
+  margin-bottom: 32px;
+  background: #f3f4f6;
+}
+
+.card-img-top {
+  border-radius: 16px 16px 0 0;
+  height: 180px;
+  object-fit: cover;
+}
+
+footer {
+  background: linear-gradient(90deg, #6366f1 0%, #1e293b 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
 }

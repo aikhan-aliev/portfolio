@@ -16,9 +16,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#academics">Academics</a></li>
           <li class="nav-item"><a class="nav-link" href="#favourites">Favourites</a></li>
         </ul>
@@ -26,13 +26,40 @@
     </div>
   </nav>
 
+
+<section class="section" id="about">
+  <div class="container text-center">
+    <h2>About Me</h2>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-8 mx-auto">
+        <p>Hi! I'm Aikhan Aliev, a Computer Science student at ELTE University in Budapest. I enjoy developing creative, well-structured programs and exploring new technologies that improve efficiency and experience.</p>
+        <p>My interests include AI, web development, and open-source projects. I love collaborating with others and learning new skills.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
   <section class="section" id="experience">
     <div class="container text-center">
       <h2>Experience</h2>
-      <div class="row">
-        <div class="col-md-12">
-          <h4>Practice Teacher</h4>
-          <p>I am currently a practice teacher for Functional Programming at ELTE University. I help students understand concepts like immutability, recursion, and higher-order functions.</p>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Teaching">
+            <div class="card-body">
+              <h4 class="card-title">Practice Teacher</h4>
+              <p class="card-text">Currently teaching Functional Programming at ELTE University. Guiding students in recursion, immutability, and higher-order functions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Mentoring">
+            <div class="card-body">
+              <h4 class="card-title">Mentor</h4>
+              <p class="card-text">Mentoring junior developers in coding best practices, project management, and collaborative development.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -43,67 +70,99 @@
       <h2>Portfolio</h2>
       <div class="row">
         <div class="col-md-6">
-          <h5>Safari Game</h5>
-          <p>A Python game project that involved animal movement and survival mechanics. Developed using GitLab CI/CD tools for continuous testing and deployment.</p>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Safari Game">
+            <div class="card-body">
+              <h5 class="card-title">Safari Game</h5>
+              <p class="card-text">A Python game project with animal movement and survival mechanics. Used GitLab CI/CD for testing and deployment.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
-          <h5>Web-Based Game</h5>
-          <p>Built a JavaScript browser game with responsive UI and logic-driven interactions.</p>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Web Game">
+            <div class="card-body">
+              <h5 class="card-title">Web-Based Game</h5>
+              <p class="card-text">JavaScript browser game with responsive UI and logic-driven interactions.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
-          <h5>Car Rental Website</h5>
-          <p>A PHP project with a backend MySQL database. Features include booking, user login, and car listing management.</p>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Car Rental">
+            <div class="card-body">
+              <h5 class="card-title">Car Rental Website</h5>
+              <p class="card-text">PHP project with MySQL backend. Features booking, user login, and car listing management.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
-          <h5>Labyrinth Game</h5>
-          <p>A Java-based maze game built using interfaces and database integration for user progress tracking and score saving.</p>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Labyrinth Game">
+            <div class="card-body">
+              <h5 class="card-title">Labyrinth Game</h5>
+              <p class="card-text">Java-based maze game with database integration for user progress tracking and score saving.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section class="section" id="about">
-    <div class="container text-center">
-      <h2>About Me</h2>
-      <p>Hi! I'm Aikhan Aliev, a Computer Science student at ELTE University in Budapest. I enjoy developing creative, well-structured programs and exploring new technologies that improve efficiency and experience.</p>
-    </div>
-  </section>
 
-  <!-- Academics Section -->
   <section class="section" id="academics">
     <div class="container text-center">
       <h2>Academics</h2>
-      <p>I am pursuing a Bachelor's degree in Computer Science at ELTE University, Budapest. My coursework has included Data Structures, Operating Systems, Functional Programming, Software Engineering, and Web Development. I actively engage in project-based learning and mentoring.</p>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h5>Coursework</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Data Structures & Algorithms</li>
+            <li class="list-group-item">Operating Systems</li>
+            <li class="list-group-item">Functional Programming</li>
+            <li class="list-group-item">Software Engineering</li>
+            <li class="list-group-item">Web Development</li>
+            <li class="list-group-item">Database Systems</li>
+            <li class="list-group-item">Computer Networks</li>
+            <li class="list-group-item">Discrete Mathematics</li>
+            <li class="list-group-item">Machine Learning</li>
+            <li class="list-group-item">Mobile App Development</li>
+            <li class="list-group-item">Cloud Computing</li>
+            <li class="list-group-item">Cybersecurity Fundamentals</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Favourites Section -->
   <section class="section" id="favourites">
     <div class="container text-center">
       <h2>Favourites</h2>
       <div class="row">
         <div class="col-md-3">
           <h5>Activities</h5>
-          <p>I enjoy learning about software development, contributing to Git projects, exploring development tools, and participating in hackathons and code challenges.</p>
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=200&q=80" class="img-fluid rounded mb-2" alt="Coding">
+          <p>Learning about software development, contributing to Git projects, hackathons, and code challenges.</p>
         </div>
         <div class="col-md-3">
           <h5>Food</h5>
-          <p>I love Georgian cuisine and other traditional Caucasian foods like khinkali, khachapuri, and grilled meats.</p>
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=200&q=80" class="img-fluid rounded mb-2" alt="Food">
+          <p>Georgian cuisine and other traditional Caucasian foods like khinkali, khachapuri, and grilled meats.</p>
         </div>
         <div class="col-md-3">
           <h5>Sports</h5>
-          <p>My favorite sports include football, gym workouts, swimming, and chess for mental stimulation.</p>
+          <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=200&q=80" class="img-fluid rounded mb-2" alt="Sports">
+          <p>Football, gym workouts, swimming, and chess for mental stimulation.</p>
         </div>
         <div class="col-md-3">
           <h5>Learning</h5>
-          <p>Always passionate about mastering coding practices, clean architecture, and new programming paradigms.</p>
+          <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=200&q=80" class="img-fluid rounded mb-2" alt="Learning">
+          <p>Passionate about mastering coding practices, clean architecture, and new programming paradigms.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-dark text-white text-center p-3">
     &copy; 2025 Aikhan Aliev. All rights reserved.
   </footer>
